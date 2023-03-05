@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    font: 18px;
+    letter-spacing: 2px;
+    color: crimson;
+}
+.nav-menu li{
+    display: inline;
+    padding: 10px 20px;
+}
+.nav-menu li a{
+    color: white;
+    transition: 0.6s;
+}
+
+.nav-menu li a:hover{
+    color: crimson;
+}
+.main-head{
+    background-image:url(https://wallpapercave.com/wp/wp8725680.jpg);
+    height: 140vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0,7);
+    background-blend-mode: darken;
+}
+.banner-text{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.banner-text h1{
+    font-size: 66px;
+}
+.banner-text h2{
+    font-size: 40px;
+}
+
+.btn{
+    top: 76%;
+    left: 20%;
+    position: absolute;
+    line-height: 1.8;
+}
+
+.btn button{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    color: snow;
+    font-size: 20px;
+    border: 1px solid crimson;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background: crimson;
+    transform: scale(1,1);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.container h1{
+    color: darkgray;
+}
+.box{
+    margin: 20px;
+    height: 500px;
+    text-align: justify;
+    padding: 40px;
+    color: snow;
+    line-height: 1.6;
+    width: 340px;
+    box-shadow: 0 5px 10px black;
+}
+.box1{
+   background-image: url(https://www.eroshotels.co.in/wp-content/uploads/2018/04/606x368.jpg);
+   background-size: cover;
+   background-position: center;
+   background-color: rgba(0,0,0,0,7);
+   background-blend-mode: darken; 
+}
+.btn1 button{
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background: transparent;
+    color: snow;
+    font-size: 18px;
+    border: 1px solid coral;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.btn1 button:hover{
+    background-color: coral;
+    transform: scale(1,1);
+}
+.box2{
+    background-image: url(https://www.ohotelsindia.com/pune/images/b32d5dc553ee2097368bae13f83e93cf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0,7);
+    background-blend-mode: darken; 
+ }
+ .btn2 button{
+     width: 200px;
+     height: 30px;
+     border-radius: 25px;
+     background: transparent;
+     color: snow;
+     font-size: 18px;
+     border: 1px solid red;
+     transition: 0.5s;
+     margin-top: 20px;
+ }
+ .btn2 button:hover{
+     background-color: red;
+     transform: scale(1,1);
+ }
+ .box3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4ipoqk99q_MgGAOOPedQo370vLRrrDefTQ&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0,7);
+    background-blend-mode: darken; 
+ }
+ .btn3 button{
+     width: 200px;
+     height: 30px;
+     border-radius: 25px;
+     background: transparent;
+     color: snow;
+     font-size: 18px;
+     border: 1px solid blue;
+     transition: 0.5s;
+     margin-top: 20px;
+ }
+ .btn3 button:hover{
+     background-color: blue;
+     transform: scale(1,1);
+ }
+.container-2{
+    background-image:url(https://hospitalityrisksolutions.files.wordpress.com/2014/01/customer-service.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0,7);
+    background-blend-mode: darken;
+    height: 100vh;
+}
+.content h1{
+    text-align: center;
+    font-size: 68px;
+    color: snow;
+    padding: 100px;
+}
+.content dt{
+    font-size: 35px;
+}
+.content dd{
+    font-size: 25px;
+    padding: 45px 100px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color:darkred;
+}
+
+.contact{
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(phone.jpg);
+    background-size: cover;
+}
+.contact .contentt{
+    max-width: 1800px;
+    text-align: center;
+}
+.contact .contentt h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .contentt p{
+    font-weight: 300;
+    color: #fff;
+}
+.containerr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.containerr .contactInfo{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+}
+.containerr .contactInfo .boxx{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.containerr .contactInfo .boxx .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.containerr .contactInfo .boxx .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.containerr .contactInfo .boxx .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
